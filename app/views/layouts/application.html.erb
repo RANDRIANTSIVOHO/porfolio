@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R.TOLOTRA.N</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    
+    
+    <!-- Font -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    
+    <link href="common-css/bootstrap.css" rel="stylesheet">
+    
+    <link href="common-css/ionicons.css" rel="stylesheet">
+    
+    <link href="common-css/fluidbox.min.css" rel="stylesheet">
+    
+    <link href="04-elements/css/styles.css" rel="stylesheet">
+    
+    <link href="04-elements/css/responsive.css" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+    <div class="container">
+      <div class="heading-wrapper">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="info">
+              <i class="icon ion-ios-location-outline"></i>
+              <div class="right-area">
+                <h5>Miandriarivo, Ambanidia</h5>
+                <h5>Antananarivo,MG 261</h5>
+              </div><!-- right-area -->
+            </div><!-- info -->
+          </div><!-- col-sm-4 -->
+          
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="info">
+              <i class="icon ion-ios-telephone-outline"></i>
+              <div class="right-area">
+                <h5>+261 32 80 309 73</h5>
+                <h6>Lundi - Vendredi,8AM - 17PM</h6>
+              </div><!-- right-area -->
+            </div><!-- info -->
+          </div><!-- col-sm-4 -->
+          
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="info">
+              <i class="icon ion-ios-chatboxes-outline"></i>
+              <div class="right-area">
+                <h5>tolotramad1@gmail.com</h5>
+                <h6>REPONSE DANS 24 HEURES</h6>
+              </div><!-- right-area -->
+            </div><!-- info -->
+          </div><!-- col-sm-4 -->
+        </div><!-- row -->
+      </div><!-- heading-wrapper -->
+      
+      <a class="downlad-btn" href="Tolotra.png" download>Download CV</a>
+    </div><!-- container -->
+  </header>
+
+    <%= yield %>
+
+  <footer>
+    <p class="copyright">
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">R.TOLOTRA.N</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    </p>
+  </footer>
+
+    <!-- SCIPTS -->
+  
+  <script src="common-js/jquery-3.2.1.min.js"></script>
+  
+  <script src="common-js/tether.min.js"></script>
+  
+  <script src="common-js/bootstrap.js"></script>
+  
+  <script src="common-js/isotope.pkgd.min.js"></script>
+  
+  <script src="common-js/jquery.waypoints.min.js"></script>
+  
+  <script src="common-js/progressbar.min.js"></script>
+  
+  <script src="common-js/jquery.fluidbox.min.js"></script>
+  
+  <script src="common-js/scripts.js"></script>
+  </body>
+</html>
